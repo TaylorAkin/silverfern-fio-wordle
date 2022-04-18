@@ -1,0 +1,9 @@
+.word-length-container {
+  font-size: 23px;
+  margin: 3rem 0;
+}
+
+.word-length-container input {
+  height: 30px;
+  width: 30px;
+}

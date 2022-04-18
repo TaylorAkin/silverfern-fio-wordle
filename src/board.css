@@ -1,0 +1,42 @@
+.board-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 20px auto;
+  max-height: 450px;
+  max-width: 450px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex: 33%;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.letter {
+  border: 1px solid grey;
+  color: white;
+  display: grid;
+  flex: 33%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  height: 100%;
+  margin: 5px;
+  place-items: center;
+}
+
+#correct {
+  background-color: #528d4e;
+}
+
+#almost {
+  background-color: #b49f39;
+}
+
+#error {
+  background-color: #3a393c;
+}
